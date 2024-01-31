@@ -37,7 +37,7 @@ const SignupForm = () => {
     <Form {...form}>
       <div className='sm:w-420 flex-center flex-col'>
         <div className="flex">
-        <img className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 rotate-6" src='/assets/images/SNAPPER.svg' /><h2 className="h4-bold md:h3-bold md:pt-4 sm:pt-4 pl-2">napper</h2>
+        <img className="col-span-2 max-h-36 w-full object-contain lg:col-span-1 mt-6" src='/assets/images/snapperLogo.svg' />
         </div>
         
         <h2 className='h3-bold md:h2-bold pt-2 sm:pt-2'>
