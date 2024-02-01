@@ -38,10 +38,14 @@ const SignupForm = () => {
   return (
     <Form {...form}>
       <div className='sm:w-420 flex-center flex-col'>
-        <div className="flex">
-        <img className="col-span-2 max-h-36 w-full object-contain lg:col-span-1 mt-6" src='/assets/images/snapperLogo.svg' />
+        <div className='flex flex-center flex-row content-center'>
+          <img
+            className='col-span-2 max-h-12 w-full object-contain lg:col-span-1 mt-6 rotate-6'
+            src='/assets/images/SNAPPER.svg'
+          />
+          <h2 className=" text-light-3 h3-bold md:h2-bold pt-6 sm:pt-6 font-serif">napper</h2>
         </div>
-        
+
         <h2 className='h3-bold md:h2-bold pt-2 sm:pt-2'>
           Create a new account
         </h2>
